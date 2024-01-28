@@ -1,17 +1,22 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Jasper Goens",
+      "titles": [ "Tech Artist", "Digital Creative", "3D Artist", "VFX Artist" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/Zorth",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/zorth/",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "artstation",
+          "url": "https://www.artstation.com/zorth",
+          "class": "fab fa-artstation"
         }
       ],
       "image": "myProfile.jpg"
@@ -21,47 +26,122 @@
         {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
-          "level": "95"
+          "level": "60"
         },
         {
           "name": "CSS 3",
           "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
+          "level": "60"
         },
         {
           "name": "TypeScript",
           "class": "devicon-typescript-plain",
-          "level": "90"
+          "level": "60"
         },
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "level": "60"
         },
         {
           "name": "C#",
           "class": "devicon-csharp-plain",
-          "level": "65"
+          "level": "70"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "80"
+        },
+        {
+          "name": "After Effects",
+          "class": "devicon-aftereffects-plain",
+          "level": "80"
+        },
+        {
+          "name": "Arduino",
+          "class": "devicon-arduino-plain",
+          "level": "40"
+        },
+        {
+          "name": "Figma",
+          "class": "devicon-figma-plain",
+          "level": "40"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
           "level": "60"
+        },
+        {
+          "name": "Github",
+          "class": "devicon-github-plain",
+          "level": "70"
+        },
+        {
+          "name": "Illustrator",
+          "class": "devicon-illustrator-plain",
+          "level": "80"
+        },
+        {
+          "name": "Intellij",
+          "class": "devicon-intellij-plain",
+          "level": "75"
+        },
+        {
+          "name": "Maya",
+          "class": "devicon-maya-plain",
+          "level": "85"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "45"
+        },
+        {
+          "name": "Blender",
+          "class": "devicon-blender-plain",
+          "level": "100"
+        },
+        {
+          "name": "Photoshop",
+          "class": "devicon-photoshop-plain",
+          "level": "95"
+        },
+        {
+          "name": "Premiere Pro",
+          "class": "devicon-premierepro-plain",
+          "level": "60"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "60"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "55"
+        },
+        {
+          "name": "Unity",
+          "class": "devicon-unity-plain",
+          "level": "72"
+        },
+        {
+          "name": "Unreal Engine",
+          "class": "devicon-unrealengine-plain",
+          "level": "71"
+        },
+        {
+          "name": "Visual Studio",
+          "class": "devicon-visualstudio-plain",
+          "level": "40"
+        },
+        {
+          "name": "Arduino",
+          "class": "devicon-arduino-plain",
+          "level": "40"
         }
       ]
     }
