@@ -44,7 +44,7 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-color: var(--secondary);
       h1 {
          color: white;
       }

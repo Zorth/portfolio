@@ -2,6 +2,20 @@
 @import '../src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
+:root[data-theme="light"] {
+	 --text: #12020e;
+	 --background: #fdedf8;
+	 --primary: #e236a6;
+	 --secondary: #ed82a0;
+	 --accent: #e75a68;
+ }
+:root[data-theme="dark"] {
+	--text: #fdedf9;
+	--background: #12020d;
+	--primary: #c91d8d;
+	--secondary: #7d1230;
+	--accent: #a51826;
+}
 
 
 
@@ -41,7 +55,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: var(--background);
+	background-color: var(--secondary);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
