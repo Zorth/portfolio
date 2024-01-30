@@ -1,12 +1,12 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Welkom!",
+      "description": "ik ben Jasper Goens, een gepassioneerde afgestudeerde in Digital Arts & Entertainment met een specialisatie in VFX. Als digitale kunstenaar combineer ik creativiteit met een diepgaand technisch inzicht om ideeën tot leven te brengen. Of het nu gaat om het verkennen van simulaties, het creëren van technische 3D kunst of het navigeren door de wereld van elke soort 3D, ik vind vreugde in de diversiteit van digitale expressie.\n\nMijn reis als kunstenaar wordt aangewakkerd door een diepgewortelde liefde voor storytelling in verschillende media. Ik geloof in de kracht van visuals om verhalen over te brengen die resoneren met het publiek. Elke dag wijdt ik me aan het verfijnen van mijn vaardigheden, het omarmen van het zich ontwikkelende landschap van digitale kunst en het verleggen van de grenzen van wat mogelijk is.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Over Mij",
+        "projects": "Projecten",
+        "skills": "Vaardigheden",
+        "experience": "Ervaring"
       }
     },
     "projects": [

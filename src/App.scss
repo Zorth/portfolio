@@ -1,26 +1,38 @@
-@import '../src/scss/themes/theme-dark.scss';
-@import '../src/scss/themes/theme-light.scss';
+//@import 'scss/themes/theme-dark.scss';
+//@import 'scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
-:root[data-theme="light"] {
-	 --text: #12020e;
-	 --background: #fdedf8;
-	 --primary: #e236a6;
-	 --secondary: #ed82a0;
-	 --accent: #e75a68;
- }
-:root[data-theme="dark"] {
-	--text: #fdedf9;
-	--background: #12020d;
-	--primary: #c91d8d;
-	--secondary: #7d1230;
-	--accent: #a51826;
+//:root {
+//	--text: #12020e;
+//	--background: #fdedf8;
+//	--primary: #e236a6;
+//	--secondary: #ed82a0;
+//	--accent: #e75a68;
+//	--text-dark: #fdedf9;
+//	--background-dark: #12020d;
+//	--primary-dark: #c91d8d;
+//	--secondary-light-dark: #7d1230;
+//	--accent-dark: #a51826;
+//}
+:root, body[data-theme="light"] {
+	--text: #1d1112;
+	--background: #f8edef;
+	--primary: #731c27;
+	--secondary-col: #ec697b;
+	--accent: #c8142c;
 }
-
+body[data-theme="dark"] {
+	--text: #eee1e3;
+	--background: #120709;
+	--primary: #e38a96;
+	--secondary-col: #941223;
+	--accent: #eb374e;
+}
 
 
 html {
 	font-size: 62.5%;
+	background-color: var(--secondary-col);
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
@@ -55,7 +67,8 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: var(--secondary);
+	color: var(--text);
+	background-color: var(--secondary-col);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -91,7 +104,7 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: var(--background);
+	background-color: var(--secondary-col);
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -125,7 +138,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: var(--background);
 	overflow: hidden;
 }
 
@@ -134,7 +147,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: var(--text);
 	text-align: center;
 }
 
@@ -144,7 +157,7 @@ header h1 {
 }
 
 .foto div {
-	background: #ffffff;
+	background: var(--background);
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
@@ -236,7 +249,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: var(--secondary-col);
 }
 
 .experience-icon {
@@ -358,7 +371,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: var(--secondary-col);
 	padding-bottom: 5%;
 }
 
