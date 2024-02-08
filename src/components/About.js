@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Icon} from "@iconify/react";
 import blenderIcon from "@iconify/icons-logos/blender";
 import sideFXIcon from "./SideFX_color.svg";
-import unrealIcon from "@iconify/icons-logos/unrealengine-icon";
+import tarragonIcon from "./Tarragon_Tiny.svg";
 
 class About extends Component {
     render() {
@@ -26,10 +26,10 @@ class About extends Component {
                             <div className="polaroid">
                 <span style={{cursor: "auto"}}>
                   <img
-                      height="250px"
-                      width="250px"
+                      height="200px"
+                      width="200px"
                       src={profilepic}
-                      alt="Avatar placeholder"
+                      alt="Avatar"
                   /><div style={{display: "flex",}}>
                   <Icon
                       icon={blenderIcon}
@@ -39,11 +39,14 @@ class About extends Component {
                         src={sideFXIcon}
                         style={{fontSize: "400%", margin: "9% 5% 0 5%", height: "40px", width: "40px"}}
                         alt="SideFX Icon"
+                        ref="https://google.com"
                     />
-                    <Icon
-                        icon={unrealIcon}
-                        style={{fontSize: "400%", margin: "9% 5% 0 5%"}}
-                    /></div>
+                    <img
+                        src={tarragonIcon}
+                        style={{fontSize: "400%", margin: "9% 5% 0 5%", height: "40px", width: "40px"}}
+                        alt="Tarragon Icon"
+                    />
+                </div>
                 </span>
                             </div>
                         </div>
