@@ -17,13 +17,13 @@ class Skills extends Component {
             <span>
               <div className="text-center skills-tile">
                 <i className={skills.class} style={{ fontSize: "220%" }}>
+                </i>
                   <p
                     className="text-center"
-                    style={{ fontSize: "30%", marginTop: "4px" }}
+                    style={{ fontSize: "70%", marginTop: "4px" }}
                   >
                     {skills.name}
                   </p>
-                </i>
               </div>
             </span>
           </li>
@@ -35,8 +35,7 @@ class Skills extends Component {
       <section id="skills">
         <div className="col-md-12">
           <div className="col-md-12">
-            <h1 className="section-title">
-              <span className="text-white">{sectionName}</span>
+            <h1 className="section-title">{sectionName}
             </h1>
           </div>
           <div className="col-md-12 text-center">
