@@ -24,6 +24,11 @@
     "skills": {
       "icons": [
         {
+          "name": "testskill",
+          "class": "testskill",
+          "level": "100"
+        },
+        {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
           "level": "60"
