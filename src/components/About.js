@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import {Icon} from "@iconify/react";
 import blenderIcon from "@iconify/icons-logos/blender";
-import sideFXIcon from "./SideFX_color.svg";
-import tarragonIcon from "./Tarragon_Tiny.svg";
+import sideFXIcon from "../icons/SideFX_color.svg";
+import tarragonIcon from "../icons/Tarragon_Tiny.svg";
 
 class About extends Component {
     render() {

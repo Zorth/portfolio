@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
-import logo_flat from "./logo_flat.svg";
+import logo_flat from "../icons/logo_flat.svg";
 
 class Header extends Component {
     titles = [];

@@ -494,6 +494,15 @@ header h1 {
   position: relative;
 }
 
+.skill-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+[data-theme="dark"] .skill-icon img {
+  filter: invert(100%);
+}
+
 footer {
   background: var(--background);
   transition: all 0.2s linear;
