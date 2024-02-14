@@ -24,9 +24,9 @@
     "skills": {
       "icons": [
         {
-          "name": "testskill",
-          "class": "testskill",
-          "level": "100"
+          "name": "Houdini",
+          "class": "Houdini",
+          "level": "95"
         },
         {
           "name": "HTML 5",
@@ -141,11 +141,6 @@
         {
           "name": "Visual Studio",
           "class": "devicon-visualstudio-plain",
-          "level": "40"
-        },
-        {
-          "name": "Arduino",
-          "class": "devicon-arduino-plain",
           "level": "40"
         }
       ]
