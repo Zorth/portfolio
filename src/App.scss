@@ -17,25 +17,26 @@
 :root, body[data-theme="light"] {
 	--text: #1d1112;
 	--background: #f8edef;
-	--primary: #731c27;
-	--secondary-col: #ec697b;
-	--accent: #c8142c;
+	--primary-col: #CB3D49;
+	--secondary-col: #EC838C;
+	--accent: #EB2F67;
 }
 body[data-theme="dark"] {
-	--text: #eee1e3;
+	--text: #EEE2E3;
 	--background: #120709;
-	--primary: #e38a96;
-	--secondary-col: #941223;
-	--accent: #eb374e;
+	--primary-col: #7C131C;
+	--secondary-col: #C1333F;
+	--accent: #EB2F67;
 }
 
 
 html {
 	font-size: 62.5%;
-	background-color: var(--secondary-col);
+	background-color: var(--primary-col);
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
+	transition: all 0.2s linear;
 }
 
 .aligner {
@@ -68,7 +69,8 @@ header {
 	text-align: center;
 	overflow: hidden;
 	color: var(--text);
-	background-color: var(--secondary-col);
+	background-color: var(--primary-col);
+	transition: all 0.2s linear;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -88,14 +90,16 @@ header {
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
-	border-top: 5px solid #696969;
+	border-top: 5px solid var(--accent);
 	border-radius: 0 0 5px 5px;
-	background-color: #696969;
+	background-color: var(--accent);
 	color: white;
+	transition: all 0.2s linear;
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: var(--background) 0.95;
+	transition: all 0.2s linear;
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -104,7 +108,8 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: var(--secondary-col);
+	background-color: var(--primary-col);
+	transition: all 0.2s linear;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -114,6 +119,7 @@ header h1 {
 	text-align: center;
 	font-weight: 600 !important;
 	color: var(--text);
+	transition: all 0.2s linear;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -121,10 +127,12 @@ header h1 {
 
 .slider-image {
 	border: 5px solid var(--background);
+	transition: all 0.2s linear;
 }
 
 .slider-tab {
 	background-color: var(--background);
+	transition: all 0.2s linear;
 	height: 25px;
 }
 
@@ -139,6 +147,7 @@ header h1 {
 
 #about {
 	background: var(--background);
+	transition: all 0.2s linear;
 	overflow: hidden;
 }
 
@@ -148,7 +157,14 @@ header h1 {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color: var(--text);
+	transition: all 0.2s linear;
 	text-align: center;
+}
+
+.card {
+	background-color: var(--primary-col) !important;
+	transition: all 0.2s linear;
+	color: var(--text);
 }
 
 .foto img {
@@ -158,6 +174,7 @@ header h1 {
 
 .foto div {
 	background: var(--background);
+	transition: all 0.2s linear;
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
@@ -196,7 +213,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: var(--text);
 	text-align: center;
 }
 
@@ -206,7 +223,7 @@ header h1 {
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: var(--primary-col);
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
@@ -249,7 +266,8 @@ header h1 {
 }
 
 #resume {
-	background: var(--secondary-col);
+	background: var(--primary-col);
+	transition: all 0.2s linear;
 }
 
 .experience-icon {
@@ -263,7 +281,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: var(--accent) !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -274,7 +292,8 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: var(--secondary-col) !important;
+	transition: all 0.2s linear;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -283,6 +302,11 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	position: static !important;
+}
+
+.vertical-timeline-element-icon {
+	background-color: var(--accent) !important;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -294,7 +318,8 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: white;
+	background: var(--primary-col);
+	transition: all 0.2s linear;
 }
 
 .bars {
@@ -371,7 +396,8 @@ header h1 {
 }
 
 #portfolio {
-	background: var(--secondary-col);
+	background: var(--primary-col);
+	transition: all 0.2s linear;
 	padding-bottom: 5%;
 }
 
@@ -407,7 +433,8 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: var(--background);
+	transition: all 0.2s linear;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -420,36 +447,40 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: var(--text);
+	transition: all 0.2s linear;
 	text-align: center;
 }
 
 .skill-icon {
 	font-size: 180%;
-	color: white;
+	color: var(--text);
+	transition: all 0.2s linear;
 	text-align: center;
 	position: relative;
 }
 
 footer {
-	background: #1F1F1F;
+	background: var(--background);
+	transition: all 0.2s linear;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: white;
+	color: var(--text);
 	position: relative;
 	text-align: center;
 }
 
 footer a,
 footer a:visited {
-	color: #fff;
+	color: var(--text);
+	transition: all 0.2s linear;
 }
 
 footer a:hover,
 footer a:focus {
-	color: #fff;
+	color: var(--accent);
 }
 
 .social-links {
