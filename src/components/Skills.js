@@ -15,7 +15,8 @@ function findIcon(iconName) {
     if (iconName.includes("devicon")) {
         return <i className={iconName} style={{fontSize: "220%"}}></i>
     } else if (iconName in skillIcons) {
-        return skillIcons[iconName];
+        return <img className="skill-icon" src={skillIcons[iconName]} alt="Logo"/>
+
     } else {
         return <img className="skill-icon" src={logo_flat_black} alt="Logo"/>
     }
