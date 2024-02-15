@@ -81,37 +81,104 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Questium",
+        "title": "COO",
+        "icon": "Questium",
+        "years": "09.2023 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Management",
+          "Marketing"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Unity",
+          "App Development",
+          "Brand Design",
+          "Task Management"
+        ]
+      },{
+        "company": "Tarragon V.Z.W.",
+        "title": "General Manager",
+        "icon": "Tarragon",
+        "years": "03.2023 - present",
+        "mainTech": [
+          "Management",
+          "Marketing"
+        ],
+        "technologies": [
+          "Event Management",
+          "Web Development",
+          "Brand Design",
+          "Task Management"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "VRT",
+        "title": "Virtual Production Artist",
+        "icon": "VRT",
+        "years": "08.2023 - 09.2023",
         "mainTech": [
-          "Angular 7/8"
+          "Unreal Engine",
+          "Blender"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Perforce",
+          "Set/Prop Design",
+          "Animation",
+          "Lighting"
+        ]
+      },
+      {
+        "company": "BOA.be",
+        "title": "3D Generalist Intern",
+        "icon": "BOA",
+        "years": "02.2023 - 06.2023",
+        "mainTech": [
+          "Blender",
+          "Houdini"
+        ],
+        "technologies": [
+          "Compositing",
+          "Rendering",
+          "3D Modelling"
+        ]
+      },
+      {
+        "company": "Howest Digital Arts & Entertainment",
+        "title": "Bachelor in 3D Production & VFX",
+        "icon": "BOA",
+        "years": "09.2019 - 06.2023",
+        "mainTech": [
+          "Houdini",
+          "Maya",
+          "Davinci Resolve",
+          "VFX"
+        ],
+        "technologies": [
+          "Adobe CC Suite",
+          "Concept Art",
+          "Unreal Engine",
+          "3ds Max",
+          "Substance Painter & Designer",
+          "Arnold",
+          "Davinci Fusion",
+          "Rigging",
+          "Rendering",
+          "3D Modelling"
+        ]
+      },
+      {
+        "company": "Various Companies",
+        "title": "Student Jobs",
+        "icon": "Other",
+        "years": "  ",
+        "mainTech": [
+        ],
+        "technologies": [
+          "Tutoring",
+          "Adobe CC Suite",
+          "Marketing",
+          "Barista/Bartending",
+          "Retail"
         ]
       }
     ]

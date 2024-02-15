@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import {findIcon} from "./Skills";
 
 class Experience extends Component {
   render() {
@@ -37,7 +38,7 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={findIcon(work.icon, "experience-icon")}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>

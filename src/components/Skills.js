@@ -6,19 +6,19 @@ function compareByLevel(a, b) {
     return b.level - a.level;
 }
 
-var skillIcons =
+export var skillIcons =
     {
         "Houdini": SideFX_black
     }
 
-function findIcon(iconName) {
+export function findIcon(iconName, className = "skill-icon") {
     if (iconName.includes("devicon")) {
         return <i className={iconName} style={{fontSize: "220%"}}></i>
     } else if (iconName in skillIcons) {
-        return <img className="skill-icon" src={skillIcons[iconName]} alt="Logo"/>
+        return <img className={className} src={skillIcons[iconName]} alt={iconName + " logo"}/>
 
     } else {
-        return <img className="skill-icon" src={logo_flat_black} alt="Logo"/>
+        return <img className={className} src={logo_flat_black} alt="Undefined Logo"/>
     }
 }
 

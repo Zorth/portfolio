@@ -271,11 +271,7 @@ header h1 {
   transition: all 0.2s linear;
 }
 
-.experience-icon {
-  font-size: 300%;
-  margin-top: 25%;
-  text-align: center;
-}
+
 
 .main-badge {
   font-size: 13px !important;
@@ -313,9 +309,22 @@ header h1 {
 .vertical-timeline-element-icon {
   background-color: var(--accent) !important;
   box-shadow: 0 0 0 4px var(--background) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
-[data-theme="dark"] .vertical-timeline-element-icon * {
+.experience-icon {
+  width: 75%;
+  font-size: 300%;
+  margin: 0 !important;
+}
+
+[data-theme="dark"] .vertical-timeline-element-icon i {
+  filter: invert(100%);
+}
+
+[data-theme="light"] .vertical-timeline-element-icon img {
   filter: invert(100%);
 }
 
@@ -323,6 +332,8 @@ header h1 {
   background-color: var(--background) !important;
   box-shadow: none !important;
 }
+
+
 
 .vertical-timeline-element-title {
   color: var(--text);
