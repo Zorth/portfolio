@@ -29,6 +29,21 @@
           "level": "95"
         },
         {
+          "name": "Arnold",
+          "class": "Arnold",
+          "level": "78"
+        },
+        {
+          "name": "Octane",
+          "class": "Octane",
+          "level": "55"
+        },
+        {
+          "name": "Davinci Resolve",
+          "class": "Davinci Resolve",
+          "level": "75"
+        },
+        {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
           "level": "60"
