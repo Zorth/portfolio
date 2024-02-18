@@ -33,7 +33,7 @@ class Header extends Component {
         }
 
         const HeaderTitleTypeAnimation = React.memo(() => {
-            return <Typical className="title-styles" steps={this.titles} loop={50}/>
+            return <Typical className="title-styles title" steps={this.titles} loop={50}/>
         }, (props, prevProp) => true);
 
         return (
@@ -45,7 +45,7 @@ class Header extends Component {
                             {/*<span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>*/}
                             <img className="iconfiy header-icon" src={logo_flat} alt="Logo"/>
                             <br/>
-                            <h1 className="mb-0">
+                            <h1 className="mb-0 title">
                                 <Typical steps={[name]} wrapper="p"/>
                             </h1>
                             <div className="title-container">
