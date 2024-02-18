@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
 import logo_flat from "../icons/logo_flat.svg";
+import desk_render from "../images/Desk_Render.png";
 
 class Header extends Component {
     titles = [];
@@ -36,7 +37,8 @@ class Header extends Component {
         }, (props, prevProp) => true);
 
         return (
-            <header id="home" style={{height: window.innerHeight - 140, display: 'block'}}>
+            <header id="home" style={{height: window.innerHeight - 70, display: 'block'}}>
+                <img src={desk_render} alt="octane desk render" style={{position: "absolute", left: "60%", top:"0", transform:"translate(-60%, 0)"}}/>
                 <div className="row aligner" style={{height: '100%'}}>
                     <div className="col-md-12">
                         <div>
