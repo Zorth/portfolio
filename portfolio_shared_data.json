@@ -167,7 +167,19 @@
   },
   "projects": [
     {
-      "title": "Tarragon V.Z.W."
+      "title": "Tarragon V.Z.W.",
+      "startDate": "2023",
+      "description": "Tarragon is a community in Kortrijk centered around anything tabletop (TTRPGs like D&D, Boardgames, Wargames, ...). I've had the pleasure of starting this as a small community with friends and the opportunity to grow this into a small company that organizes events to bring people together. More info on https://Tarragon.be/",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg"
+      ],
+      "url": "https://www.Tarragon.be/",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        }
+      ]
     }
   ]
 }
