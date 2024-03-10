@@ -1,116 +1,186 @@
 {
-    "basic_info": {
-      "description_header": "Welkom!",
-      "description": "Ik ben Jasper Goens, een gepassioneerd afgestudeerde Digital Arts & Entertainment met een specialisatie in VFX. Ik ben een maker in hart en nieren, mijn passie voor het creëren van allerlei soorten projecten heeft ertoe geleid dat ik op veel gebieden vaardigheden heb ontwikkeld en mezelf voortdurend heb gestimuleerd om meer te leren. Mijn vermogen om zowel logisch als creatief te denken, heeft mij tot een goede problem-solver gemaakt en geeft mij de kracht om elk project te creëren dat ik maar kan bedenken, zolang ik de tijd heb. Ik heb de ambitie om in mijn professionele carrière regisseur en docent te worden.",
-      "section_name": {
-        "about": "Over Mij",
-        "projects": "Projecten",
-        "skills": "Vaardigheden",
-        "experience": "Ervaring"
-      }
+  "basic_info": {
+    "description_header": "Welkom!",
+    "description": "Ik ben Jasper Goens, een gepassioneerd afgestudeerde Digital Arts & Entertainment met een specialisatie in VFX. Ik ben een maker in hart en nieren, mijn passie voor het creëren van allerlei soorten projecten heeft ertoe geleid dat ik op veel gebieden vaardigheden heb ontwikkeld en mezelf voortdurend heb gestimuleerd om meer te leren. Mijn vermogen om zowel logisch als creatief te denken, heeft mij tot een goede problem-solver gemaakt en geeft mij de kracht om elk project te creëren dat ik maar kan bedenken, zolang ik de tijd heb. Ik heb de ambitie om in mijn professionele carrière regisseur en docent te worden.",
+    "section_name": {
+      "about": "Over Mij",
+      "projects": "Projecten",
+      "skills": "Vaardigheden",
+      "experience": "Ervaring"
+    }
+  },
+  "projects": [
+    {
+      "title": "Animal Shelter",
+      "startDate": "2020",
+      "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Photography",
+      "startDate": "2018",
+      "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "3D Object Viewer",
+      "startDate": "2015",
+      "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Questium",
+      "title": "COO",
+      "icon": "Questium",
+      "years": "09.2023 - present",
+      "mainTech": [
+        "Management",
+        "Marketing"
+      ],
+      "technologies": [
+        "Unity",
+        "App Development",
+        "Brand Design",
+        "Task Management"
+      ]
+    },
+    {
+      "company": "Tarragon V.Z.W.",
+      "title": "General Manager",
+      "icon": "Tarragon",
+      "years": "03.2023 - present",
+      "mainTech": [
+        "Management",
+        "Marketing"
+      ],
+      "technologies": [
+        "Event Management",
+        "Web Development",
+        "Brand Design",
+        "Task Management"
+      ]
+    },
+    {
+      "company": "VRT",
+      "title": "Virtual Production Artist",
+      "icon": "VRT",
+      "years": "08.2023 - 09.2023",
+      "mainTech": [
+        "Unreal Engine",
+        "Blender"
+      ],
+      "technologies": [
+        "Perforce",
+        "Set/Prop Design",
+        "Animation",
+        "Lighting"
+      ]
+    },
+    {
+      "company": "BOA.be",
+      "title": "3D Generalist Intern",
+      "icon": "BOA",
+      "years": "02.2023 - 06.2023",
+      "mainTech": [
+        "Blender",
+        "Houdini"
+      ],
+      "technologies": [
+        "Compositing",
+        "Rendering",
+        "3D Modelling"
+      ]
+    },
+    {
+      "company": "Howest Digital Arts & Entertainment",
+      "title": "Bachelor in 3D Production & VFX",
+      "icon": "BOA",
+      "years": "09.2019 - 06.2023",
+      "mainTech": [
+        "Houdini",
+        "Maya",
+        "Davinci Resolve",
+        "VFX"
+      ],
+      "technologies": [
+        "Adobe CC Suite",
+        "Concept Art",
+        "Unreal Engine",
+        "3ds Max",
+        "Substance Painter & Designer",
+        "Arnold",
+        "Davinci Fusion",
+        "Rigging",
+        "Rendering",
+        "3D Modelling"
+      ]
+    },
+    {
+      "company": "Various Companies",
+      "title": "Student Jobs",
+      "icon": "Other",
+      "years": "  ",
+      "mainTech": [
+      ],
+      "technologies": [
+        "Tutoring",
+        "Adobe CC Suite",
+        "Marketing",
+        "Barista/Bartending",
+        "Retail"
+      ]
+    }
+  ]
+}
