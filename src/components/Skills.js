@@ -1,6 +1,9 @@
 import React, {Component} from "react";
 import logo_flat_black from "../icons/logo_flat_black.svg";
 import SideFX_black from "../icons/SideFX_black.svg";
+import Autodesk from "../icons/autodesk.svg";
+import Resolve from "../icons/davinci-resolve.svg";
+import Octane from "../icons/octane logo.svg";
 
 function compareByLevel(a, b) {
     return b.level - a.level;
@@ -8,7 +11,10 @@ function compareByLevel(a, b) {
 
 export var skillIcons =
     {
-        "Houdini": SideFX_black
+        "Houdini": SideFX_black,
+        "Arnold": Autodesk,
+        "Resolve": Resolve,
+        "Octane": Octane
     }
 
 export function findIcon(iconName, className = "skill-icon") {

@@ -39,6 +39,7 @@ class Header extends Component {
         return (
             <header id="home" style={{height: window.innerHeight - 70, display: 'block'}}>
                 <img src={desk_render} alt="octane desk render" style={{position: "absolute", left: "60%", top:"0", transform:"translate(-60%, 0)"}}/>
+                <p className="footnote">Rendered With Octane</p>
                 <div className="row aligner" style={{height: '100%'}}>
                     <div className="col-md-12">
                         <div>
