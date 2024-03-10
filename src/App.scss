@@ -97,7 +97,8 @@ header {
 
 .project-date {
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal !important;
+  font-family: "Ubuntu Mono", monospace;
   padding: 8px 15px 2px 15px;
   position: relative;
   z-index: -500;
@@ -294,8 +295,8 @@ header h1 {
   vertical-align: baseline;
   background-color: var(--accent) !important;
   color: white;
-  font-weight: lighter !important;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal !important;
+  font-family: "Ubuntu Mono", monospace;
 }
 
 .experience-badge {
@@ -306,8 +307,9 @@ header h1 {
   background-color: var(--secondary-col) !important;
   transition: all 0.2s linear;
   color: black;
-  font-weight: lighter !important;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: normal !important;
+  font-family: "Ubuntu Mono", monospace;
+
 }
 
 .vertical-timeline-element-date {
