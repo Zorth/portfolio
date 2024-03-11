@@ -203,7 +203,9 @@
       "title": "Lich King Portrait",
       "startDate": "2022",
       "description": "",
-      "images": [],
+      "images": [
+        "images/portfolio/VFX/LichKingPink.png"
+      ],
       "url": "https://www.artstation.com/artwork/nEy6VX",
       "technologies": [
         {
