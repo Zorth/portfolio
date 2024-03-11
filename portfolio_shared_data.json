@@ -171,14 +171,35 @@
       "startDate": "2023",
       "description": "Tarragon is a community in Kortrijk centered around anything tabletop (TTRPGs like D&D, Boardgames, Wargames, ...). I've had the pleasure of starting this as a small community with friends and the opportunity to grow this into a small company that organizes events to bring people together. I've learned a lot about management, marketing, and web development working on Tarragon. More info on https://Tarragon.be/",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg"
+        "images/portfolio/Tarragon/Tgon_1.jpg",
+        "images/portfolio/Tarragon/Tgon_2.jpg"
       ],
       "url": "https://www.Tarragon.be/",
       "technologies": [
         {
           "class": "devicon-react-plain",
           "name": "React"
+        },
+        {
+          "class": "devicon-github-plain",
+          "name": "Github"
+        },
+        {
+          "class": "devicon-figma-plain",
+          "name": "Figma"
+        },
+        {
+          "class": "devicon-photoshop-plain",
+          "name": "Photoshop"
         }
+      ]
+    },
+    {
+      "title": "TTRPGs",
+      "startDate": "2017",
+      "description": "When I was younger I discovered Dungeons and Dragons. But without friends to teach me I decided to learn and run the game myself. I have more often than not had a weekly game going where I write and run stories for my players to enjoy as well as manage the campaigns. I have learned many skills when working on my various TTRPG campaigns from designing to improvising to programming and people management.",
+      "images": [
+        "images/portfolio/TTRPG/TTRPG_1.jpg"
       ]
     }
   ]
