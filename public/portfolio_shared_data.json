@@ -1,163 +1,207 @@
 {
-    "basic_info": {
-      "name": "Jasper Goens",
-      "titles": [ "Tech Artist", "Digital Creative", "3D Artist", "VFX Artist" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/Zorth",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "instagram",
-          "url": "https://www.instagram.com/zorth/",
-          "class": "fab fa-instagram"
-        },
-        {
-          "name": "artstation",
-          "url": "https://www.artstation.com/zorth",
-          "class": "fab fa-artstation"
-        }
+  "basic_info": {
+    "name": "Jasper Goens",
+    "titles": [
+      "Tech Artist",
+      "Digital Creative",
+      "3D Artist",
+      "VFX Artist"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/Zorth",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/zorth/",
+        "class": "fab fa-instagram"
+      },
+      {
+        "name": "artstation",
+        "url": "https://www.artstation.com/zorth",
+        "class": "fab fa-artstation"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Houdini",
+        "class": "Houdini",
+        "level": "95"
+      },
+      {
+        "name": "Arnold",
+        "class": "Arnold",
+        "level": "78"
+      },
+      {
+        "name": "Octane",
+        "class": "Octane",
+        "level": "55"
+      },
+      {
+        "name": "Resolve",
+        "class": "Resolve",
+        "level": "75"
+      },
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "60"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "60"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "60"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "60"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
+        "level": "70"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "80"
+      },
+      {
+        "name": "After Effects",
+        "class": "devicon-aftereffects-plain",
+        "level": "80"
+      },
+      {
+        "name": "Arduino",
+        "class": "devicon-arduino-plain",
+        "level": "40"
+      },
+      {
+        "name": "Figma",
+        "class": "devicon-figma-plain",
+        "level": "40"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "60"
+      },
+      {
+        "name": "Github",
+        "class": "devicon-github-plain",
+        "level": "70"
+      },
+      {
+        "name": "Illustrator",
+        "class": "devicon-illustrator-plain",
+        "level": "80"
+      },
+      {
+        "name": "Intellij",
+        "class": "devicon-intellij-plain",
+        "level": "75"
+      },
+      {
+        "name": "Maya",
+        "class": "devicon-maya-plain",
+        "level": "85"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "45"
+      },
+      {
+        "name": "Blender",
+        "class": "devicon-blender-original",
+        "level": "100"
+      },
+      {
+        "name": "Photoshop",
+        "class": "devicon-photoshop-plain",
+        "level": "95"
+      },
+      {
+        "name": "Premiere Pro",
+        "class": "devicon-premierepro-plain",
+        "level": "60"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "60"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "55"
+      },
+      {
+        "name": "Unity",
+        "class": "devicon-unity-plain",
+        "level": "72"
+      },
+      {
+        "name": "Unreal Engine",
+        "class": "devicon-unrealengine-plain",
+        "level": "71"
+      },
+      {
+        "name": "Visual Studio",
+        "class": "devicon-visualstudio-plain",
+        "level": "40"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Tarragon V.Z.W.",
+      "startDate": "2023",
+      "description": "Tarragon is a community in Kortrijk centered around anything tabletop (TTRPGs like D&D, Boardgames, Wargames, ...). I've had the pleasure of starting this as a small community with friends and the opportunity to grow this into a small company that organizes events to bring people together. I've learned a lot about management, marketing, and web development working on Tarragon. More info on https://Tarragon.be/",
+      "images": [
+        "images/portfolio/Tarragon/Tgon_1.jpg",
+        "images/portfolio/Tarragon/Tgon_2.jpg"
       ],
-      "image": "myProfile.jpg"
-    },
-    "skills": {
-      "icons": [
+      "url": "https://www.Tarragon.be/",
+      "technologies": [
         {
-          "name": "Houdini",
-          "class": "Houdini",
-          "level": "95"
-        },
-        {
-          "name": "Arnold",
-          "class": "Arnold",
-          "level": "78"
-        },
-        {
-          "name": "Octane",
-          "class": "Octane",
-          "level": "55"
-        },
-        {
-          "name": "Resolve",
-          "class": "Resolve",
-          "level": "75"
-        },
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "60"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "60"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "60"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "60"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "70"
-        },
-        {
-          "name": "Java",
-          "class": "devicon-java-plain",
-          "level": "80"
-        },
-        {
-          "name": "After Effects",
-          "class": "devicon-aftereffects-plain",
-          "level": "80"
-        },
-        {
-          "name": "Arduino",
-          "class": "devicon-arduino-plain",
-          "level": "40"
-        },
-        {
-          "name": "Figma",
-          "class": "devicon-figma-plain",
-          "level": "40"
-        },
-        {
-          "name": "Git",
-          "class": "devicon-git-plain",
-          "level": "60"
-        },
-        {
-          "name": "Github",
-          "class": "devicon-github-plain",
-          "level": "70"
-        },
-        {
-          "name": "Illustrator",
-          "class": "devicon-illustrator-plain",
-          "level": "80"
-        },
-        {
-          "name": "Intellij",
-          "class": "devicon-intellij-plain",
-          "level": "75"
-        },
-        {
-          "name": "Maya",
-          "class": "devicon-maya-plain",
-          "level": "85"
-        },
-        {
-          "name": "MongoDB",
-          "class": "devicon-mongodb-plain",
-          "level": "45"
-        },
-        {
-          "name": "Blender",
-          "class": "devicon-blender-original",
-          "level": "100"
-        },
-        {
-          "name": "Photoshop",
-          "class": "devicon-photoshop-plain",
-          "level": "95"
-        },
-        {
-          "name": "Premiere Pro",
-          "class": "devicon-premierepro-plain",
-          "level": "60"
-        },
-        {
-          "name": "Python",
-          "class": "devicon-python-plain",
-          "level": "60"
-        },
-        {
-          "name": "React",
           "class": "devicon-react-plain",
-          "level": "55"
+          "name": "React"
         },
         {
-          "name": "Unity",
-          "class": "devicon-unity-plain",
-          "level": "72"
+          "class": "devicon-github-plain",
+          "name": "Github"
         },
         {
-          "name": "Unreal Engine",
-          "class": "devicon-unrealengine-plain",
-          "level": "71"
+          "class": "devicon-figma-plain",
+          "name": "Figma"
         },
         {
-          "name": "Visual Studio",
-          "class": "devicon-visualstudio-plain",
-          "level": "40"
+          "class": "devicon-photoshop-plain",
+          "name": "Photoshop"
         }
       ]
+    },
+    {
+      "title": "TTRPGs",
+      "startDate": "2017",
+      "description": "When I was younger I discovered Dungeons and Dragons. But without friends to teach me I decided to learn and run the game myself. I have more often than not had a weekly game going where I write and run stories for my players to enjoy as well as manage the campaigns. I have learned many skills when working on my various TTRPG campaigns from designing to improvising to programming and people management.",
+      "images": [
+        "images/portfolio/TTRPG/TTRPG_1.jpg",
+        "images/portfolio/TTRPG/Rosewood.jpg"
+      ]
     }
-  }
+  ]
+}

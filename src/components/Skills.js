@@ -4,6 +4,7 @@ import SideFX_black from "../icons/SideFX_black.svg";
 import Autodesk from "../icons/autodesk.svg";
 import Resolve from "../icons/davinci-resolve.svg";
 import Octane from "../icons/octane logo.svg";
+import Questium from "../icons/Questium_Flat_White.svg";
 
 function compareByLevel(a, b) {
     return b.level - a.level;
@@ -14,7 +15,8 @@ export var skillIcons =
         "Houdini": SideFX_black,
         "Arnold": Autodesk,
         "Resolve": Resolve,
-        "Octane": Octane
+        "Octane": Octane,
+        "Questium": Questium
     }
 
 export function findIcon(iconName, className = "skill-icon") {
