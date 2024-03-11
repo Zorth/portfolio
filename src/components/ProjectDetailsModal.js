@@ -21,9 +21,9 @@ class ProjectDetailsModal extends Component {
             <li className="list-inline-item mx-3" key={i}>
               <span>
                 <div className="text-center">
-                  {findIcon(icons.class)}
+                  {findIcon(icons.class, "modal-skill-icon")}
                   {/*<i className={icons.class} style={{ fontSize: "300%" }}>*/}
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                    <p className="text-center">
                       {icons.name}
                     </p>
                 </div>
@@ -33,7 +33,7 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
+            return <div className={"project-img"} key={i} data-src={elem} />;
           });
         }
       }
