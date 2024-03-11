@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.35472f5e.css",
+    "main.css": "/portfolio/static/css/main.67484628.css",
     "main.js": "/portfolio/static/js/main.322d3ceb.js",
     "static/media/Desk_Render.png": "/portfolio/static/media/Desk_Render.63cebbc63a23d681153f.png",
     "static/media/Tarragon_Tiny.svg": "/portfolio/static/media/Tarragon_Tiny.bb94d4ac61264e8a6b4a1e59368408a9.svg",
@@ -13,11 +13,11 @@
     "static/media/SideFX_black.svg": "/portfolio/static/media/SideFX_black.2c29624c1414e2f13d18402e5234939d.svg",
     "index.html": "/portfolio/index.html",
     "static/media/octane logo.svg": "/portfolio/static/media/octane logo.16b6978a3852c81775164b0b93983fbc.svg",
-    "main.35472f5e.css.map": "/portfolio/static/css/main.35472f5e.css.map",
+    "main.67484628.css.map": "/portfolio/static/css/main.67484628.css.map",
     "main.322d3ceb.js.map": "/portfolio/static/js/main.322d3ceb.js.map"
   },
   "entrypoints": [
-    "static/css/main.35472f5e.css",
+    "static/css/main.67484628.css",
     "static/js/main.322d3ceb.js"
   ]
 }
