@@ -22,6 +22,11 @@
         "name": "artstation",
         "url": "https://www.artstation.com/zorth",
         "class": "fab fa-artstation"
+      },
+      {
+        "name": "linkedIn",
+        "url": "https://www.linkedin.com/in/jasper-goens/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "myProfile.jpg"
@@ -195,13 +200,38 @@
       ]
     },
     {
+      "title": "Lich King Portrait",
+      "startDate": "2022",
+      "description": "",
+      "images": [
+        "images/portfolio/VFX/LichKingPink.png"
+      ],
+      "url": "https://www.artstation.com/artwork/nEy6VX",
+      "technologies": [
+        {
+          "class": "Houdini",
+          "name": "Houdini"
+        },
+        {
+          "class": "devicon-maya-plain",
+          "name": "Maya"
+        },
+        {
+          "class": "Arnold",
+          "name": "Arnold"
+        }
+      ]
+    },
+    {
       "title": "TTRPGs",
       "startDate": "2017",
       "description": "When I was younger I discovered Dungeons and Dragons. But without friends to teach me I decided to learn and run the game myself. I have more often than not had a weekly game going where I write and run stories for my players to enjoy as well as manage the campaigns. I have learned many skills when working on my various TTRPG campaigns from designing to improvising to programming and people management.",
       "images": [
         "images/portfolio/TTRPG/TTRPG_1.jpg",
         "images/portfolio/TTRPG/Rosewood.jpg"
-      ]
+      ],
+      "url": "",
+      "technologies": []
     }
   ]
 }

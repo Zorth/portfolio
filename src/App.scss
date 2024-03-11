@@ -186,6 +186,8 @@ header h1 {
 .foto img {
   display: block;
   width: 100%;
+  height: 230px;
+  object-fit: cover;
 }
 
 .foto div {
@@ -380,6 +382,7 @@ header h1 {
 
 .modal-inside .modal-content {
   background: var(--primary-col);
+  color: var(--text);
   transition: all 0.2s linear;
 }
 
@@ -438,6 +441,7 @@ header h1 {
 }
 
 .modal-description {
+  color: var(--text);
   text-align: justify;
   padding: 5px 5px 0 5px;
   margin-bottom: 20px;
