@@ -5,7 +5,6 @@ import Autodesk from "../icons/autodesk.svg";
 import Resolve from "../icons/davinci-resolve.svg";
 import Octane from "../icons/octane logo.svg";
 import Questium from "../icons/Questium_Flat_White.svg";
-import {findIcon} from "./Skills";
 
 function compareByLevel(a, b) {
     return b.level - a.level;
