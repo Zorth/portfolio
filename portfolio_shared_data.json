@@ -22,6 +22,11 @@
         "name": "artstation",
         "url": "https://www.artstation.com/zorth",
         "class": "fab fa-artstation"
+      },
+      {
+        "name": "linkedIn",
+        "url": "https://www.linkedin.com/in/jasper-goens/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "myProfile.jpg"
