@@ -171,67 +171,82 @@
     ]
   },
   "projects": [
-    {
-      "title": "Tarragon V.Z.W.",
-      "startDate": "2023",
-      "description": "Tarragon is a community in Kortrijk centered around anything tabletop (TTRPGs like D&D, Boardgames, Wargames, ...). I've had the pleasure of starting this as a small community with friends and the opportunity to grow this into a small company that organizes events to bring people together. I've learned a lot about management, marketing, and web development working on Tarragon. More info on https://Tarragon.be/",
-      "images": [
-        "images/portfolio/Tarragon/Tgon_1.jpg",
-        "images/portfolio/Tarragon/Tgon_2.jpg"
-      ],
-      "url": "https://www.Tarragon.be/",
-      "technologies": [
-        {
-          "class": "devicon-react-plain",
-          "name": "React"
-        },
-        {
-          "class": "devicon-github-plain",
-          "name": "Github"
-        },
-        {
-          "class": "devicon-figma-plain",
-          "name": "Figma"
-        },
-        {
-          "class": "devicon-photoshop-plain",
-          "name": "Photoshop"
-        }
-      ]
-    },
-    {
-      "title": "Lich King Portrait",
-      "startDate": "2022",
-      "description": "Animation availble on Artstation (link above). As one of the projects I worked on during my studies at Howest Digital Arts & Entertainment, I created a fan piece of World of Warcraft's Lich King, adjusted to fit my color scheme. I created a realistic smoke & ice simulation to fit the piece.",
-      "images": [
-        "images/portfolio/VFX/LichKingPink.png"
-      ],
-      "url": "https://www.artstation.com/artwork/nEy6VX",
-      "technologies": [
-        {
-          "class": "Houdini",
-          "name": "Houdini"
-        },
-        {
-          "class": "devicon-maya-plain",
-          "name": "Maya"
-        },
-        {
-          "class": "Arnold",
-          "name": "Arnold"
-        }
-      ]
-    },
-    {
-      "title": "TTRPGs",
-      "startDate": "2017",
-      "description": "When I was younger I discovered Dungeons and Dragons. But without friends to teach me I decided to learn and run the game myself. I have more often than not had a weekly game going where I write and run stories for my players to enjoy as well as manage the campaigns. I have learned many skills when working on my various TTRPG campaigns from designing to improvising to programming and people management.",
-      "images": [
-        "images/portfolio/TTRPG/TTRPG_1.jpg",
-        "images/portfolio/TTRPG/Rosewood.jpg"
-      ],
-      "url": "",
-      "technologies": []
-    }
+      {
+          "title": "Logo Simulations",
+          "startDate": "2023",
+          "description": "Using Houdini I created various different revealing/dissapearing animations of my (procedurally editable) logo. Animations on Artstion (link above).",
+          "images": [
+              "images/portfolio/VFX/Logo1.png"
+          ],
+          "url": "https://www.artstation.com/artwork/Wm0zwy",
+          "technologies": [
+              {
+                  "class": "Houdini",
+                  "name": "Houdini"
+              }
+          ]
+      },
+      {
+          "title": "Tarragon V.Z.W.",
+          "startDate": "2023",
+          "description": "Tarragon is a community in Kortrijk centered around anything tabletop (TTRPGs like D&D, Boardgames, Wargames, ...). I've had the pleasure of starting this as a small community with friends and the opportunity to grow this into a small company that organizes events to bring people together. I've learned a lot about management, marketing, and web development working on Tarragon. More info on https://Tarragon.be/",
+          "images": [
+              "images/portfolio/Tarragon/Tgon_1.jpg",
+              "images/portfolio/Tarragon/Tgon_2.jpg"
+          ],
+          "url": "https://www.Tarragon.be/",
+          "technologies": [
+              {
+                  "class": "devicon-react-plain",
+                  "name": "React"
+              },
+              {
+                  "class": "devicon-github-plain",
+                  "name": "Github"
+              },
+              {
+                  "class": "devicon-figma-plain",
+                  "name": "Figma"
+              },
+              {
+                  "class": "devicon-photoshop-plain",
+                  "name": "Photoshop"
+              }
+          ]
+      },
+      {
+          "title": "Lich King Portrait",
+          "startDate": "2022",
+          "description": "Animation availble on Artstation (link above). As one of the projects I worked on during my studies at Howest Digital Arts & Entertainment, I created a fan piece of World of Warcraft's Lich King, adjusted to fit my color scheme. I created a realistic smoke & ice simulation to fit the piece.",
+          "images": [
+              "images/portfolio/VFX/LichKingPink.png"
+          ],
+          "url": "https://www.artstation.com/artwork/nEy6VX",
+          "technologies": [
+              {
+                  "class": "Houdini",
+                  "name": "Houdini"
+              },
+              {
+                  "class": "devicon-maya-plain",
+                  "name": "Maya"
+              },
+              {
+                  "class": "Arnold",
+                  "name": "Arnold"
+              }
+          ]
+      },
+      {
+          "title": "TTRPGs",
+          "startDate": "2017",
+          "description": "When I was younger I discovered Dungeons and Dragons. But without friends to teach me I decided to learn and run the game myself. I have more often than not had a weekly game going where I write and run stories for my players to enjoy as well as manage the campaigns. I have learned many skills when working on my various TTRPG campaigns from designing to improvising to programming and people management.",
+          "images": [
+              "images/portfolio/TTRPG/TTRPG_1.jpg",
+              "images/portfolio/TTRPG/Rosewood.jpg"
+          ],
+          "url": "",
+          "technologies": []
+      }
   ]
 }
