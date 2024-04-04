@@ -79,6 +79,11 @@
         "level": "70"
       },
       {
+          "name": "Rust",
+          "class": "devicon-rust-original",
+          "level": "60"
+      },
+      {
         "name": "Java",
         "class": "devicon-java-plain",
         "level": "80"
