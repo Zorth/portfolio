@@ -177,9 +177,29 @@
   },
   "projects": [
       {
+          "title": "Orthographic Map System",
+          "startDate": "2024",
+          "description": "I wanted to create a system for me to create orthographic maps easily. To do this I created procedural systems to aid me in quickly and easily fill maps with houses, props, vegetation, etc. I wanted a bright \"anime\"-like style with subtle and calm movements.\nVideos on Artstation (link above)",
+          "images": [
+              "images/portfolio/VFX/village.png",
+              "images/portfolio/VFX/flavourshot.jpg"
+          ],
+          "url": "https://www.artstation.com/artwork/n0gQ49",
+          "technologies": [
+              {
+                  "class": "devicon-blender-original",
+                  "name": "Blender"
+              },
+              {
+                  "class": "devicon-photoshop-plain",
+                  "name": "Photoshop"
+              }
+          ]
+      },
+      {
           "title": "Logo Simulations",
           "startDate": "2023",
-          "description": "Using Houdini I created various different revealing/dissapearing animations of my (procedurally editable) logo. Animations on Artstion (link above).",
+          "description": "Using Houdini I created various different revealing/dissapearing animations of my (procedurally editable) logo. Animations on Artstation (link above).",
           "images": [
               "images/portfolio/VFX/Logo1.png"
           ],
