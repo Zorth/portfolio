@@ -177,6 +177,27 @@
   },
   "projects": [
       {
+          "title": "Production Logo",
+          "startDate": "2024",
+          "description": "I tried to make myself an opening production logo style animation. Fully procedurally in Houdini & Blender. It also gave me the opportunity to mess around with sound effects a little bit.\nVideo available on Artstation (link above)",
+          "images": [
+              "images/portfolio/VFX/Z_Hex1.jpg",
+              "images/portfolio/VFX/Z_Hex2.jpg",
+              "images/portfolio/VFX/Z_Hex3.jpg",
+          ],
+          "url": "https://www.artstation.com/artwork/XgRYlL",
+          "technologies": [
+              {
+                  "class": "Houdini",
+                  "name": "Houdini"
+              },
+              {
+                  "class": "devicon-blender-original",
+                  "name": "Blender"
+              }
+          ]
+      },
+      {
           "title": "Orthographic Map System",
           "startDate": "2024",
           "description": "I wanted to create a system for me to create orthographic maps easily. To do this I created procedural systems to aid me in quickly and easily fill maps with houses, props, vegetation, etc. I wanted a bright \"anime\"-like style with subtle and calm movements.\nVideos on Artstation (link above)",
